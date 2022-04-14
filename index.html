@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap" rel="stylesheet">     
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+    <title>POP Architecture</title>
+    </head>
+    <body>
+        <!--header-->
+        <nav class="navbar desktop">
+            <div class="img-container">
+            <a href="#" class="logo">
+                <img src="./images/logo.png">
+            </a>
+            </div>
+                <ul class="nav-list" id="navi-list">
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+            <!--banner-->
+        <div class="container">
+            <div class="tag">
+                <h2 class="tagline">Your Dreams</h2>
+                <h2 class="position">Our Talents</h2>
+            </div>
+            <h1 id="brand">POP ARCHITECTURE</h1>
+        </div>
+        <!--main section-->
+        <div class="main">
+            <div class="title">Our<div class="line"></div>Brand</div>
+        </div>
+            <div class="the-brand">
+            At POP, we are transforming the built environment to inspire
+beautiful, sustainable architecture that will impact
+our communities for generations to come.
+            </div>
+        <!--projects section-->
+            <div class="projects">
+                <img class="building" src="./images/building.jpg"/>
+                <div class="anchor">PROJECTS<a href="#"><img src="./images/right-arrow.png"/></a></div>
+                <img class="building-two" src="./images/building2.jpg"/>
+            </div>
+  <!--team section-->
+    <div class="team">
+        <div class="title">Our<div class="line"></div>Team</div>
+    </div>
+    <div class="team-images">
+        <div class="text"><img src="./images/moose.jpg"/><h3>Moose</h3><h4>Founder</h4></div>
+        <div class="text"><img src="./images/daniel.jpg"/><h3>Daniel Wallace</h3><h4>C.E.O.</h4></div>
+        <div class="text"><img src="./images/jose.jpg"/><h3>Fermin Cruz</h3><h4>C.O.O.</h4></div>
+        <div class="text"><img src="./images/amy.jpg"/><h3>Amy Wallace</h3><h4>Lead Designer</h4></div>
+        <div class="text"><img src="./images/john.jpg"/><h3>Jonny Croft</h3><h4>Drone Guy</h4></div>
+        <div class="text"><img src="./images/sarah.jpg"/><h3>Sarah Roesler</h3><h4>Software Girl</h4></div>
+    </div>
+    <!--footer section-->
+    <footer>
+        <div class="title">Contact<div class="line"></div>Us</div>
+        <div class="contact">(555)555-5555</div>
+        <div class="contact">pop@poparchitecture.com</div>
+    </footer>
+    </body>
+    <script>
+        const toggleButton = document.getElementById('toggle-button');
+        const naviList = document.getElementById('navi-list');
+
+        toggleButton.addEventListener('click', () => {
+            naviList.classList.toggle('active');
+        })
+    </script>
+</html>
