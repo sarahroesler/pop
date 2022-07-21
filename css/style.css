@@ -227,7 +227,8 @@ a {
 @media (max-width: 780px) {
 
     .tagline,
-    .position {
+    .position,
+    .tag {
         display: none;
     }
 
