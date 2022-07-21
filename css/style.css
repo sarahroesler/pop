@@ -223,7 +223,7 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media (max-width: 780px) {
 
     .tagline,
     .position {
@@ -241,10 +241,10 @@ h2 {
 
     #brand {
         font-size: 4rem;
-        margin-top: 10rem;
+        margin-top: 11rem;
         letter-spacing: 4px;
         font-family: 'NeutrafaceCondensed-Light', serif;
-        /* position: absolute; */
+
     }
 
     .container-img {
@@ -413,7 +413,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
     #projects {
         height: auto;
         display: flex;
