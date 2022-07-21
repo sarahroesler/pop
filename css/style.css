@@ -252,9 +252,9 @@ h2 {
         margin-top: 3.5rem;
     }
 
-    .container .tag {
+    /* .container .tag {
         padding-top: 2rem;
-    }
+    } */
 
     .mobile-tag {
         display: flex;
