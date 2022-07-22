@@ -32,6 +32,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'HelveticaNowDisplay-Regular';
+    src: url('../fonts/HelveticaNowDisplay-Regular.woff') format('woff');
+    src: url('../fonts/HelveticaNowDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 16px;
     font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif;
@@ -243,7 +251,7 @@ a {
         /* margin-top: 12rem; */
         padding-top: 12rem;
         letter-spacing: 4px;
-        font-family: 'NeutrafaceCondensed-Light', serif;
+        font-family: 'NeutrafaceCondensed-Medium', serif;
 
     }
 
@@ -264,7 +272,7 @@ a {
         color: #F4F3F1;
         letter-spacing: .2rem;
         margin-top: 0;
-        font-family: 'NeutrafaceCondensed-Light', serif;
+        font-family: 'NeutrafaceCondensed-Medium', serif;
     }
 
 }
@@ -282,11 +290,13 @@ a {
 
 .title {
     text-align: center;
-    font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif;
+    /* font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif; */
+    font-family: 'NeutrafaceCondensed-Medium', serif;
     color: #1f1f1f;
     font-weight: 300;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 #main {
@@ -305,8 +315,11 @@ a {
 
 .the-brand {
     /* font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif; */
-    font-family: 'Teko', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
+    /* font-family: 'NeutrafaceCondensed-Medium', serif; */
     /* font-weight: bold; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'HelveticaNowDisplay-Regular';
     font-size: 3.5rem;
     text-align: center;
     display: block;
@@ -314,11 +327,13 @@ a {
     padding-top: 5rem;
     color: #1f1f1f;
     width: auto;
+    /* letter-spacing: 1px; */
+    /* font-weight: bold; */
 }
 
 @media (max-width: 985px) {
     .the-brand {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin: 0 1rem;
         text-align: center;
         padding-top: 3rem;
