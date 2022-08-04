@@ -90,7 +90,7 @@ a {
     font-family: "Teko", sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
-    padding: 8px 15px 0 15px;
+    padding: 8px 25px 0 25px;
     transition: all 100ms cubic-bezier(0.645, 0.045, 0.355, 1)
 }
 
@@ -130,6 +130,12 @@ a {
 
 #mainNavbar a:hover {
     color: #ff8829;
+}
+
+@media (max-width: 870px) {
+    #mainNavbar a {
+        padding: 8px 15px 0 15px;
+    }
 }
 
 
@@ -212,7 +218,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media (max-width: 1300px) {
     h2 {
         font-size: 4rem;
 
@@ -232,7 +238,7 @@ a {
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
 
     .tagline,
     .position,
