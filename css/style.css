@@ -126,8 +126,6 @@ a {
 }
 
 
-
-
 #mainNavbar a:hover {
     color: #ff8829;
 }
@@ -163,9 +161,6 @@ a {
         width: 100%;
         background-color: #F4F3F1;
     }
-
-
-
 
 }
 
@@ -266,9 +261,6 @@ a {
         margin-top: 3.2rem;
     }
 
-    /* .container .tag {
-        padding-top: 2rem;
-    } */
 
     .mobile-tag {
         display: flex;
@@ -296,7 +288,6 @@ a {
 
 .title {
     text-align: center;
-    /* font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif; */
     font-family: 'NeutrafaceCondensed-Medium', serif;
     color: #1f1f1f;
     font-weight: 300;
@@ -318,13 +309,8 @@ a {
 }
 
 
-
 .the-brand {
-    /* font-family: 'Noto-Serif-Display-SemiCondensed-Light', serif; */
-    /* font-family: 'Teko', sans-serif; */
-    /* font-family: 'NeutrafaceCondensed-Medium', serif; */
-    /* font-weight: bold; */
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
     font-family: 'HelveticaNowDisplay-Regular';
     font-size: 3.5rem;
     text-align: center;
@@ -333,8 +319,6 @@ a {
     padding-top: 5rem;
     color: #1f1f1f;
     width: auto;
-    /* letter-spacing: 1px; */
-    /* font-weight: bold; */
 }
 
 @media (max-width: 985px) {
@@ -343,7 +327,7 @@ a {
         margin: 0 1rem;
         text-align: center;
         padding-top: 3rem;
-        line-height: 1.1;
+        line-height: 1.2;
     }
 
     #main {
@@ -365,17 +349,11 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 16rem 16rem 16rem;
     margin-top: 20rem;
-
     gap: 1rem;
     column-gap: 6rem;
     align-items: center;
 }
 
-/*
-.projects img{
-    width: 22rem;
-    height: 35rem;
-}*/
 
 #projects .building {
     justify-self: center;
@@ -439,6 +417,12 @@ a {
     }
 }
 
+@media (max-width: 985px) {
+    #projects {
+        margin-top: 15rem;
+    }
+}
+
 
 @media (max-width: 800px) {
     #projects {
@@ -448,7 +432,6 @@ a {
         flex-direction: column;
         background-image: none;
         background-color: #1f1f1f;
-        /* background-color: #F4F3F1; */
     }
 
     #projects .building {
@@ -470,8 +453,6 @@ a {
         place-self: center;
         margin: 0;
         color: #F4F3F1;
-        /* background-color: #1f1f1fba; */
-
     }
 
     #projects .anchor {
@@ -617,14 +598,11 @@ footer h3 {
 footer {
     text-align: center;
     background-color: #F4F3F1;
-
     font-family: 'NeutrafaceCondensed-Light', serif;
     font-size: 1.5rem;
     padding: 5rem 5rem 6rem 5rem;
     display: flex;
     color: #1f1f1f;
-    /* border-top: 1px solid rgb(173, 173, 173); */
-
 }
 
 .bold {
@@ -645,9 +623,7 @@ footer .email {
     margin: 0;
     text-align: left;
     font-family: 'NeutrafaceCondensed-Medium', serif;
-
     padding-top: 7px;
-
 }
 
 
@@ -701,8 +677,6 @@ a:hover {
         width: 3rem;
         height: 3rem;
     }
-
-
 
     footer {
         padding: 3rem 2rem 7rem 2rem;
